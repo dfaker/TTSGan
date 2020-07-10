@@ -1,6 +1,6 @@
 # TTSGan
 
-# ! Doesn't currently produce anything more than stylized syllables !
+## ! Doesn't currently produce anything more than stylized gibberish syllables with untrained inputs !
 
 ### Expects the setup of:
 - `source.mp3` as a source audio recording 
