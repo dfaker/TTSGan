@@ -7,7 +7,7 @@ from keras.layers.advanced_activations import LeakyReLU
 
 from keras.initializers import RandomNormal
 
-letters = ' DHPTCIYKBLXRWAQVGZNFSMUEOJ#'
+letters = ' 7CI6PpxnLV38qv?4ZFkgceN-HRMQJD.OdwEuSYaU51KomXslA2biT,jty9#hr0GzfB'
 
 conv_init = RandomNormal(0, 0.02)
 

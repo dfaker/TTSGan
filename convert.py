@@ -42,7 +42,7 @@ letters = ' DHPTCIYKBLXRWAQVGZNFSMUEOJ#'
 testPhrase = 'TO THIS I ALWAYS ADD SOME NORMAL BREAD FOR BREADCRUMBS'.upper()
 
 name = testPhrase.split('\\')[-1]
-name = name.replace('.png','').strip().upper().replace('[MUSIC]','#')
+name = name.replace('.png','').strip()
 print(name)
 inds = [letters.index(x) if x in letters else 0 for x in name]
 

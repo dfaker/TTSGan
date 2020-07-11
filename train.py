@@ -11,6 +11,7 @@ imageCache = {}
 try:
   discriminator.load_weights('discriminator.bin')
   generator.load_weights('generator.bin')
+  pass
 except Exception as e:
   print(e)
 
@@ -23,7 +24,7 @@ def genPairs():
     for source in sources:
 
       name = source.split('\\')[-1]
-      name = name.replace('.png','').strip().upper().replace('[MUSIC]','#')
+      name = name.replace('.png','').strip()
       inds = [model.letters.index(x) if x in model.letters else 0 for x in name]
 
 
