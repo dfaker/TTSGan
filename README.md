@@ -1,4 +1,4 @@
-# TTSGan
+# TTSGan - A Text To Speech Generative Adversarial Network for Audiobook Revoicing
 
 ### Doesn't currently produce anything more than stylized gibberish syllables with untrained inputs.
 
